@@ -19,4 +19,4 @@ jobs:
       - name: Run Railway Command
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-        run: railway run --service luminous-reprieve node index.js
+        run: railway run --service corn_job_website node index.js
